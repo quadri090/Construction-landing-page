@@ -9,7 +9,8 @@ export default {
       colors: {
         'primary-green': '#6BA678',
         'bg-green': '#E7FFED',
-        'my-dark': '#3B4A3F'
+        'my-dark': '#3B4A3F',
+        'my-outline-green': '#007471'
       },
       fontFamily: {
         'roboto': ['Roboto', 'sans-serif']
