@@ -37,7 +37,7 @@ function Leaders(props) {
 export default function About() {
     return (
         <>
-            <div className='mt-[50px] font-roboto bg-bg-green'>
+            <div className='mt-[50px] font-roboto bg-bg-green' id='about' aria-labelledby='about'>
                 <div className=' flex items-center justify-center'>
                     <p className='text-[22px] md:text-[28px] font-medium leading-[30px] '>About Us</p>
                 </div>
@@ -54,7 +54,7 @@ export default function About() {
                 <div className='flex items-center justify-center text-[18px] md:text-[20px] font-medium my-[25px] md:my-[50px] '>
                     <p>Meet our leaders</p>
                 </div>
-                <div className='flex flex-col md:flex-row items-center justify-between w-[359px] md:w-[1128px] h-[869px] md:h-[353px] m-auto'>
+                <div className='flex flex-col md:flex-row items-center justify-between w-[359px] md:w-[1128px] h-[869px] md:h-[353px] m-auto pb-[20px]'>
                     <Leaders
                     src='/src/img/polygon 1.png'
                     name='Janet Juma'

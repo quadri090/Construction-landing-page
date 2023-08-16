@@ -14,10 +14,10 @@ function HeroText(props) {
 export default function Hero() {
     return (
         <>
-            <div className='w-full md:w-[1128px] h-[589px] md:h-[584px] mx-auto mt-[87px] md:mt-[27px] flex flex-col-reverse md:flex-row justify-between font-roboto'>
+            <div className='w-full md:w-[1128px] h-[589px] md:h-[584px] mx-auto mt-[87px] md:mt-[27px] flex flex-col-reverse md:flex-row justify-between font-roboto' id='home' aria-labelledby='home'>
                 <div className='w-[363px] md:w-[452px] h-[205px] md:h-[256px] flex flex-col gap-[20px] font-medium m-auto'>
                     <p className='text-[28px] md:text-[48px]'>Building Something?</p>
-                    <p className='text-[18px]'>Eco-builders is a team of professional construction workers whose sole mission is to build durable and <br/> eco-friendly buildings.</p>
+                    <p className='text-[18px]'>Eco-builders is a team of professional construction workers whose sole mission is to build <span className='text-primary-green'> durable</span> and <br className='hidden sm:flex'/> <span className='text-primary-green'>eco-friendly </span> buildings.</p>
                     <Btn
                     width='w-[93px] md:w-[99px] h-[42px] md:h-[50px] '
                     text='Hire Us' />
