@@ -1,12 +1,12 @@
-import { useState } from 'react'
+import { useState } from "react";
+import OurService from "./components/OurServices";
 
 function App() {
-
   return (
     <>
-         <h1 className="text-3xl font-bold text-blue-800 underline">Hello world!</h1>
+      <OurService />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
