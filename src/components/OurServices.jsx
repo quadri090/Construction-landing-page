@@ -1,3 +1,5 @@
+import DisplayImages from "./DisplayImages";
+import dd from "../img/office buildings.png"
 function OurService(props) {
   return (
     <>
@@ -22,6 +24,13 @@ function OurService(props) {
               <li>Mansions</li>
               <li>Eco houses</li>
             </ul>
+          </div>
+          <div>
+            <div>
+            <DisplayImages name={dd} classs='pt-7'/>
+              
+            </div>
+            {/* <img src={dd} alt="" /> */}
           </div>
         </div>
       </div>
