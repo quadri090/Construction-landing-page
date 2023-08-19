@@ -33,8 +33,8 @@ function OurService(props) {
               <li>Eco houses</li>
             </ul>
           </div>
-          <div className="flex flex-col justify-betwee items-center">
-            <div className="flex flex-col lg:flex-row justify-between mts-12">
+          <div className="flex flex-col justify-between items-center">
+            <div className="flex flex-col lg:flex-row justify-between mt-12">
               <div className="hidden md:block lg:block">
                 <DisplayImages
                   name={Image1}
