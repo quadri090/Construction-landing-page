@@ -8,7 +8,7 @@ function App() {
     <>
       <OurService />
       <WhyChooseUs/>
-      <Footer/>
+      <Footer/>      
     </>
   );
 }
