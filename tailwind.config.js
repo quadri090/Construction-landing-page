@@ -8,7 +8,7 @@ export default {
     extend: {
       backgroundImage: {
         'my-backgound': "url('./src/img/footerbg.svg')"
-      }
+      },
       colors: {
         'primary-green':'#68A678',
         'bg-green':'#E7FFED',
