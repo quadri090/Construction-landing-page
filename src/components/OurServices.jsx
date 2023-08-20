@@ -12,7 +12,7 @@ function OurService(props) {
   return (
     <>
       <div className="flex flex-row justify-center px-2.5">
-        <div className="sm:w-[359px] md:w-[758px] lg:w-[1128px] flex flex-col justify-cener items-cnter">
+        <div className="flex flex-col ">
           <div className="">
             <h1 className=" font-semibold sm:text-[22px] text-2xl text-center">
               Our Services

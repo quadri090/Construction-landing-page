@@ -9,14 +9,14 @@ import Icon5 from "../img/icon5.png";
 function WhyChooseUs() {
   return (
     <>
-      <div className="flex flex-row justifdy-center items-center">
-        <div className="mt-7 px-[35px] md:px-[70px]">
+      <div className="flex flex-row justify-center items-center">
+        <div className="m-7 px-[3px] md:px-[70px]">
           <div className="text-center">
             <h1 className="font-bold text-lg lg:font-semibold lg:text-xl">
               Why Choose us
             </h1>
           </div>
-          <div className="flex flex-col md:flex-row justify-betweden">
+          <div className="flex flex-col md:flex-row justify-betweven">
             <div className="md:w-1/2">
               <DisplayImages name={Image1} classs="w-[494px] h-[388px]" />
             </div>
@@ -25,11 +25,11 @@ function WhyChooseUs() {
                 At Eco-builders, we place the client’s needs first and build
                 structures that will have a positive impact on their lives.
               </div>
-              <div className=" flex flex-row items-center justify-center self-center md:blofck">
+              <div className=" flex flex-row items-center justify-center lg:justify-start">
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mt-6">
                   <div className="text-sm">
                     <DisplayImages name={Icon} />
-                    <h1>Eco-friendly</h1>
+                    <h1>Eco-friedndly</h1>
                   </div>
                   <div className="text-sm">
                     <DisplayImages name={Icon1} />
