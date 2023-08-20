@@ -6,15 +6,17 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'my-backgound': "url('./src/img/footerbg.svg')"
+      },
       colors: {
-        'primary-green': '#6BA678',
-        'bg-green': '#E7FFED',
-        'my-dark': '#3B4A3F',
-        'my-outline-green': '#007471'
+        'primary-green':'#68A678',
+        'bg-green':'#E7FFED',
+        'my-dark': '#3B4A3F'
       },
       fontFamily: {
         'roboto': ['Roboto', 'sans-serif']
-      }
+      },
     },
   },
   plugins: [],
