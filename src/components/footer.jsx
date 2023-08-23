@@ -48,7 +48,7 @@ function Footer() {
               <DisplayImages name={spacer} classs="w-[20px] h-[20px] mr-1" />
               Nairobi
             </div>
-            <div className="flex gap-7 md:gap-[2] mt-4">
+            <div className="flex gap-10 md:gap-[2] mt-4">
               <DisplayImages name={twitter} classs="w-[30px] h-[30px]" />
               <DisplayImages name={facebook} classs="w-[30px] h-[30px]" />
               <DisplayImages name={instagram} classs="w-[30px] h-[30px]" />

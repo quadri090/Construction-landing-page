@@ -1,5 +1,6 @@
 import DisplayImages from "./DisplayImages";
 import DisplayText from "./OurServiceText";
+import BtnOurService from "./BtnOurService";
 import Image1 from "../img/office_buildings.png";
 import Image2 from "../img/mansions.png";
 import Image3 from "../img/eco-houses.png";
@@ -7,11 +8,10 @@ import Image4 from "../img/office_buildings_mobile.png";
 import Image5 from "../img/masions_mobile.png";
 import Image6 from "../img/eco-house_mobile.png";
 
-
 function OurService(props) {
   return (
     <>
-      <div className="flex flex-row justify-center px-2.5">
+      <div className="flex flex-row justify-center px-2.5 mt-[50] md:mt-[60px]">
         <div className="flex flex-col ">
           <div className="">
             <h1 className=" font-semibold sm:text-[22px] text-2xl text-center">
@@ -52,6 +52,10 @@ function OurService(props) {
                   heading="Office buildings"
                   content="We build elegant office buildings that can be custom-made to suit your office needs at an affordable price."
                 />
+                <BtnOurService
+                  name="Learn more"
+                  classs="w-[147px] py-[10px] px-[20px] rounded-[4px] text-primary-green text-[16px] font-roboto font-medium bg-[#FFF] border-2 border-primary-green mt-4"
+                />
               </div>
             </div>
 
@@ -60,6 +64,10 @@ function OurService(props) {
                 <DisplayText
                   heading="Mansions"
                   content="We build mansions that can be custom-made to suit your unique preferences."
+                />
+                <BtnOurService
+                  name="Learn more"
+                  classs="w-[147px] py-[10px] px-[20px] rounded-[4px] text-[#FFF] text-[16px] font-roboto font-medium bg-primary-green mt-4"
                 />
               </div>
               <div className="hidden md:block lg:block">
@@ -77,7 +85,7 @@ function OurService(props) {
             </div>
 
             <div className="flex flex-col lg:flex-row justify-between mt-12">
-            <div className="hidden md:block lg:block">
+              <div className="hidden md:block lg:block">
                 <DisplayImages
                   name={Image3}
                   classs="w-[359px] h-[215.2px] md:w-[470px] md:h-[366px] rounded-md"
@@ -93,6 +101,10 @@ function OurService(props) {
                 <DisplayText
                   heading="Eco houses"
                   content="We build houses that are eco-friendly and help bring a serene environment for any outdoor activity."
+                />
+                <BtnOurService
+                  name="Learn more"
+                  classs="w-[147px] py-[10px] px-[20px] rounded-[4px] text-[#FFF] text-[16px] font-roboto font-medium bg-primary-green mt-4"
                 />
               </div>
             </div>
