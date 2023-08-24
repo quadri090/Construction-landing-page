@@ -14,7 +14,7 @@ function InputArea(props) {
 export default function Contact() {
     return(
         <>
-            <div className='w-[359px] md:w-[662px] h-[443px] md:h-[458px] flex flex-col gap-[25px] items-center justify-center mx-auto md:mt-[100px] font-roboto' id='contact' aria-labelledby='contact'>
+            <div className='w-[359px] md:w-[662px] h-[443px] md:h-[458px] flex flex-col gap-[25px] items-center justify-center mx-auto mt-[50px] md:mt-[100px] font-roboto' id='contact' aria-labelledby='contact'>
                 <h3 className='text-[22px] md:text-[28px] font-medium leading-[30px]'>Let's talk</h3>
                 <div className='flex flex-col gap-[40px] items-center justify-center'>
                     <InputArea 
