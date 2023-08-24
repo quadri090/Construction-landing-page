@@ -32,7 +32,7 @@ export default function Hero() {
                     position='top-[340px] sm:top-[380px] lg:top-[520px] '/>
                     <HeroText 
                     text='Eco-friendly buildings'
-                    position='top-[310px] sm:top-[360px] lg:top-[470px] left-[260px] sm:left-[610px] lg:left-[1110px]'/>
+                    position='top-[310px] sm:top-[320px] lg:top-[470px] left-[260px] sm:left-[610px] lg:left-[1110px]'/>
                 </div>
             </div>
         </>
