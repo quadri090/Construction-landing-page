@@ -23,6 +23,7 @@ export default function Header() {
     <>
       <header className="sm:h-[50px] w-full font-roboto text-my-dark">
         <nav className="bg-white w-full mt-0 h-16 sm:h-28 md:h-[50px] md:m-auto sm:grid sm:grid-rows-2 z-10 sm:justify-center top-0 fixed sm:items-center lg:w-full lg:flex lg:justify-between lg:mx-auto">
+
           <div className="flex items-center sm:justify-center gap-[12px] md:ml-[70px] mt-[13px] sm:mt-0">
             <button className="mx-2 cursor-pointer h-[26px]  sm:hidden" onClick={() => setNavOpen(!navOpen)}>
               <i id="icon" className={`fa fa-bars fa-2x ${navOpen ? "hidden" : "block"}`} aria-hidden="true"></i>
