@@ -12,7 +12,7 @@ function Footer() {
   return (
     <>
       <div className="bg-black  md:bg-[#212121] lg:bg-white md:bg-my-backgound bg-repeat-y text-base flex text-white lg:h-[295.78px] md:flex md:justify-center">
-        <div className="flex flex-col space-y-4 justify-center md:w-full md:grid md:space-y-2 md:grid-cols-2 lg:flex-row lg:w-[1304px] px-10 pb-5  mt-10">
+        <div className="flex flex-col space-y-4 justify-center md:w-full md:grid md:space-y-2 md:grid-cols-2 lg:flex lg:flex-row lg:w-[1304px] px-10 pb-5 lg:justify-between mt-10">
 
           <div className="max-w-[282px] flex flex-col">
             <div className="font-bold">Eco-builders</div>
