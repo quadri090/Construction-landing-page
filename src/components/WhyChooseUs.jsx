@@ -1,5 +1,5 @@
 import DisplayImages from "./DisplayImages";
-import Image1 from "../img/Better.png";
+import Image1 from "../img/better.png";
 import Icon from "../img/icon.png";
 import Icon1 from "../img/icon1.png";
 import Icon2 from "../img/icon2.png";
