@@ -1,12 +1,11 @@
 import DisplayImages from "./DisplayImages";
-import email from "../img/email.png";
+import email from "../img/Email.png";
 import facebook from "../img/Facebook.svg";
 import instagram from "../img/Instagram.svg";
 import phone from "../img/Phone.png";
 import twitter from "../img/Twitter.png";
 import spacer from "../img/Spacer Icon.png";
 import Linkedin from "../img/Linkedin.png";
-// import bg from "../img/footerbg.png";
 
 function Footer() {
   return (

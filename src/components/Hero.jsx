@@ -1,5 +1,6 @@
 import React from 'react' 
 import Btn from './Btn'
+import Vector from '../img/Vector.png'
 
 function HeroText(props) {
     return (
@@ -23,7 +24,7 @@ export default function Hero() {
                     text='Hire Us' />
                 </div>
                 <div className='w-[340px] lg:w-[595px] h-[330px] lg:h-[584px] mx-auto md:m-auto'>
-                    <img src="/src/img/vector.png" alt="" />
+                    <img src={Vector} alt="" />
                     <HeroText 
                     text='Superior design'
                     position='top-[110px] sm:top-[140px] lg:top-[140px] left-[45px] sm:left-[400px] lg:left-[700px]'/>
