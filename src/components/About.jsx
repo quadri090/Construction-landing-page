@@ -1,11 +1,11 @@
 import React from 'react'
 import goal from '../img/goal.png'
-import telescope from '../img/telescope.png'
-import polygon1 from '../img/polygon 1.png'
-import polygon2 from '../img/polygon 2.png'
-import polygon3 from '../img/polygon 3.png'
-import twitterr from '../img/twitterr.png'
-import linkedinn from '../img/linkedinn.png'
+import telescope from '../img/Telescope.png'
+import polygon1 from '../img/Polygon 1.png'
+import polygon2 from '../img/Polygon 2.png'
+import polygon3 from '../img/Polygon 3.png'
+import twitterr from '../img/Twitterr.png'
+import linkedinn from '../img/Linkedinn.png'
 
 
 function MisVis(props) {
