@@ -59,7 +59,7 @@ export default function About() {
                     misvis='Our Vision:'
                     desc='Being a world class organization that transforms lifes one building at a time.' />
                 </div>
-                <div className='flex items-center justify-center text-[18px] md:text-[20px] font-medium my-[25px] md:my-[50px] '>
+                <div className='flex items-center justify-center text-[18px] md:text-[20px] font-medium mt-16 mb-[25px] md:my-[50px] '>
                     <p>Meet our leaders</p>
                 </div>
                 <div className='flex flex-col md:flex-row items-center justify-between w-[359px] sm:w-[90%] lg:w-[1128px] h-[869px] md:h-[353px] m-auto pb-[20px]'>

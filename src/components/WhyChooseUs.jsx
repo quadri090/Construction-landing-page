@@ -7,9 +7,11 @@ import Icon3 from "../img/icon3.png";
 import Icon4 from "../img/icon4.png";
 import Icon5 from "../img/icon5.png";
 function WhyChooseUs() {
+
+  const iconClasses = "text-sm flex flex-col items-center sm:items-start justify-center rounded-md  outline sm:outline-none"
   return (
     <>
-      <div className="flex flex-row justify-center items-center">
+      <div className="flex flex-row justify-center items-center px-5">
         <div className="mt-[50px] px-[3px] md:px-[70px] md:mt-[60px]">
           <div className="text-center">
             <h1 className="font-bold text-lg lg:font-semibold lg:text-xl">
@@ -27,27 +29,27 @@ function WhyChooseUs() {
               </div>
               <div className=" flex flex-row items-center justify-center lg:justify-start lg:w-full">
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mt-6 lg:w-full">
-                  <div className="text-sm">
+                  <div className={iconClasses}>
                     <DisplayImages name={Icon} />
-                    <h1>Eco-friedndly</h1>
+                    <h1>Eco-friendly</h1>
                   </div>
-                  <div className="text-sm">
+                  <div className={iconClasses}>
                     <DisplayImages name={Icon1} />
                     <h1>Budget friendly</h1>
                   </div>
-                  <div className="text-sm">
+                  <div className={iconClasses}>
                     <DisplayImages name={Icon2} />
                     <h1>Strong foundation</h1>
                   </div>
-                  <div className="text-sm">
+                  <div className={iconClasses}>
                     <DisplayImages name={Icon3} />
                     <h1>Sustainable solutions</h1>
                   </div>
-                  <div className="text-sm">
+                  <div className={iconClasses}>
                     <DisplayImages name={Icon4} />
                     <h1>Extensive research</h1>
                   </div>
-                  <div className="text-sm">
+                  <div className={iconClasses}>
                     <DisplayImages name={Icon5} />
                     <h1>Excellent service</h1>
                   </div>

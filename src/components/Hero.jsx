@@ -17,8 +17,8 @@ export default function Hero() {
         <>
             <div className='w-full lg:w-[1128px] h-[589px] sm:h-[400px] lg:h-[584px] mx-auto mt-[87px] md:mt-[27px] flex flex-col-reverse md:flex-row justify-between font-roboto' id='home' aria-labelledby='home'>
                 <div className='w-[363px] sm:w-[300px] lg:w-[452px] h-[205px] md:h-[256px] flex flex-col gap-[20px] font-medium m-auto '>
-                    <p className='text-[28px] lg:text-[48px]'>Building Something?</p>
-                    <p className='text-[18px] sm:text-[13px] lg:text-[18px]'>Eco-builders is a team of professional construction workers whose sole mission is to build <span className='text-primary-green'> durable</span> and <br className='hidden sm:flex'/> <span className='text-primary-green'>eco-friendly </span> buildings.</p>
+                    <p className='text-[24px] lg:text-[48px]'>Building Something?</p>
+                    <p className='text-[16px] sm:text-[13px] lg:text-[18px]'>Eco-builders is a team of professional construction workers whose sole mission is to build <span className='text-primary-green'> durable</span> and <br className='hidden sm:flex'/> <span className='text-primary-green'>eco-friendly </span> buildings.</p>
                     <Btn
                     width='w-[93px] md:w-[99px] h-[42px] md:h-[50px] '
                     text='Hire Us' />

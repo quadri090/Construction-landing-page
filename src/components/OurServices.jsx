@@ -12,7 +12,7 @@ function OurService(props) {
   return (
     <>
 
-      <div className="flex flex-row justify-center px-2.5" id='Services' aria-labelledby='Services'>
+      <div className="flex flex-row justify-center px-5" id='Services' aria-labelledby='Services'>
         <div className="flex flex-col ">
           <div className="">
             <h1 className=" font-semibold sm:text-[22px] text-2xl text-center">
